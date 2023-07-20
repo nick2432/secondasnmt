@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(226, 226, 226);
+  
+}
+.containerBox {
+  max-width: 400px;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  box-shadow: 5px 5px 5px rgb(209, 208, 208);
+  overflow: scroll;
+  padding: 20px;
+  position: relative;
+}
+.background{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 70px;
+  gap: 20px;
+}
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+.header{
+  display: flex;
+  gap: 10px;
+}
+.textfeild{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.input{
+  background-color: #FAFAFA;
+  display: flex;
+  height: 50px;
+  border: none;
+}
+input::placeholder {
+  position: relative;
+  left:20px;
+}
+.upload{
+  background-color: #FAFAFA;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+.inputJSON{
+  height: 230px;
+  border: none;
+  background-color: #FAFAFA;
+}
+.btn{
+  border: none;
+  height: 40px;
+  border-radius: 20px;
+  color: white;
+  background-color: #4381FF;
+  cursor: pointer;
+}
+.dialog{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+  align-items: center;
+}
+.btn1{
+  color: white;
+  width: 200px;
+  height: 50px;
+  border-radius: 20px;
+  background-color: #3062C8;
+}
+.btn2{
+  color: black;
+  width: 200px;
+  height: 50px;
+  border-radius: 20px;
+}
